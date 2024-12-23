@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a.active{
+  @apply text-yellow-300 border-yellow-300 px-2
+}
+
+.html{
+  scroll-behavior: smooth;
+}
